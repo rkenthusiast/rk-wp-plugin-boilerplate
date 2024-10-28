@@ -63,7 +63,7 @@ modules:
             user: '%DB_USER%'
             password: '%DB_PASSWORD%'
             dump: tests/_data/dump.sql
-            populate: true
+            populate: false
             cleanup: true
             reconnect: true
             url: '%WP_URL%'
