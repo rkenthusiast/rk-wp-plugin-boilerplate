@@ -10,7 +10,7 @@ class AdminEnqueueCest {
 	function enqueue_admin_scripts(AcceptanceTester $I) {
 		$I->wantTo('access to the plugin settings page and check the scripts enqueue');
 		$I->amOnPage('/wp-admin/admin.php?page=rk-wp-plugin-boilerplate');
-		$I->seeInPageSource('rk-wp-plugin-boilerplate-settings-script');
+		$I->seeInPageSource('rk-wp-plugin-boilerplate-settings-scripts');
 		$I->seeInPageSource('rk-wp-plugin-boilerplate-admin-script');
 	}
 
